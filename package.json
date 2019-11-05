@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "lint": "xo .",
+    "format": "xo . --fix"
+  },
+  "devDependencies": {
+    "xo": "latest"
+  },
+  "xo": {
+    "prettier": true,
+    "space": true,
+    "globals": [
+      "jest",
+      "test",
+      "expect"
+    ]
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0"
+  },
+  "name": "jest-spy-mock-stub-reference",
+  "description": "Jest .fn() and spyOn() spy/stub/mock assertion reference",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": ""
+}
