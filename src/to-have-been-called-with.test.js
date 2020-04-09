@@ -1,14 +1,14 @@
 let state = 0;
 const counter = {
-  add(val) {
-    state += val;
+  add(value) {
+    state += value;
   },
   getCount() {
     return state;
   }
 };
 
-const singleAdd = counter => {
+const singleAdd = (counter) => {
   counter.add(10);
 };
 
@@ -26,7 +26,7 @@ test('singleAdd > jest.spyOn() toHaveBeenCalledWith() single call', () => {
   expect(addSpy).toHaveBeenCalledWith(10);
 });
 
-const multipleAdd = counter => {
+const multipleAdd = (counter) => {
   counter.add(15);
   counter.add(20);
 };

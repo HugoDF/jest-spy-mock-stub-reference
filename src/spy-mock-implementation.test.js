@@ -1,16 +1,16 @@
-const myObj = {
+const myObject = {
   doSomething() {
     console.log('does something');
   }
 };
 
 test('spyOn().mockImplementation()', () => {
-  const somethingSpy = jest.spyOn(myObj, 'doSomething').mockImplementation();
-  myObj.doSomething();
+  const somethingSpy = jest.spyOn(myObject, 'doSomething').mockImplementation();
+  myObject.doSomething();
   expect(somethingSpy).toHaveBeenCalled();
 });
 test('spyOn().mockReturnValue()', () => {
-  const somethingSpy = jest.spyOn(myObj, 'doSomething').mockReturnValue();
-  myObj.doSomething();
+  const somethingSpy = jest.spyOn(myObject, 'doSomething').mockReturnValue();
+  myObject.doSomething();
   expect(somethingSpy).toHaveBeenCalled();
 });

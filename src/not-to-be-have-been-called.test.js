@@ -1,4 +1,4 @@
-const myObj = {
+const myObject = {
   doSomething() {
     console.log('does something');
   }
@@ -10,7 +10,7 @@ test('jest.fn().not.toBeCalled()/toHaveBeenCalled()', () => {
   expect(stub).not.toHaveBeenCalled();
 });
 test('jest.spyOn().not.toBeCalled()/toHaveBeenCalled()', () => {
-  const somethingSpy = jest.spyOn(myObj, 'doSomething').mockReturnValue();
+  const somethingSpy = jest.spyOn(myObject, 'doSomething').mockReturnValue();
   expect(somethingSpy).not.toBeCalled();
   expect(somethingSpy).not.toHaveBeenCalled();
 });
