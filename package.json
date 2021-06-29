@@ -19,7 +19,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "jest": "^27.0.5",
+    "jest": "^27.0.6",
     "jest-cli": "^27.0.4"
   },
   "name": "jest-spy-mock-stub-reference",
