@@ -19,8 +19,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "jest": "^27.3.1",
-    "jest-cli": "^27.5.1"
+    "jest": "^27.3.1"
   },
   "name": "jest-spy-mock-stub-reference",
   "description": "Jest .fn() and spyOn() spy/stub/mock assertion reference",
